@@ -308,3 +308,110 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git commit -m "first"
+[master 2ddbc0a] first
+ Committer: Arina ten Cate - Hoek <arinetencate-hoek@Arinas-Air-2.fritz.box>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 83 insertions(+)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ ls
+DESCRIPTION	NAMESPACE	R		fastaf.Rproj	man
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git config --global --edit
+hint: Waiting for your editor to close the file... [?2004herror: There was a problem with the editor 'vi'.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/84C5911E/console06/84ACCDC0[m
+	[31mmodified:   .Rproj.user/84C5911E/sources/prop/4B00CA1C[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ s[Kls
+DESCRIPTION	NAMESPACE	R		fastaf.Rproj	man
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add DESCRIPTION
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git commit -m "desc"
+On branch master
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/84C5911E/console06/84ACCDC0[m
+	[31mmodified:   .Rproj.user/84C5911E/sources/prop/4B00CA1C[m
+
+no changes added to commit
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git config --global --unset-all
+error: wrong number of arguments
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remove [K[K[Kte -v
+origin	git@github.com/vincent10kd/fastaf.git (fetch)
+origin	git@github.com/vincent10kd/fastaf.git (push)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git branch -vv
+[?1h=* [32mmaster[m 2ddbc0a first[m
+[K[?1l>]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push -u origin master
+fatal: 'git@github.com/vincent10kd/fastaf.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote set-url origin git@github.com:vincent10kd/fastaf.git
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote set-url origin git@github.com:vincent10kd/fastaf.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Ppush -u origin master
+Counting objects: 107, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/102)   Compressing objects:   1% (2/102)   Compressing objects:   2% (3/102)   Compressing objects:   3% (4/102)   Compressing objects:   4% (5/102)   Compressing objects:   5% (6/102)   Compressing objects:   6% (7/102)   Compressing objects:   7% (8/102)   Compressing objects:   8% (9/102)   Compressing objects:   9% (10/102)   Compressing objects:  10% (11/102)   Compressing objects:  11% (12/102)   Compressing objects:  12% (13/102)   Compressing objects:  13% (14/102)   Compressing objects:  14% (15/102)   Compressing objects:  15% (16/102)   Compressing objects:  16% (17/102)   Compressing objects:  17% (18/102)   Compressing objects:  18% (19/102)   Compressing objects:  19% (20/102)   Compressing objects:  20% (21/102)   Compressing objects:  21% (22/102)   Compressing objects:  22% (23/102)   Compressing objects:  23% (24/102)   Compressing objects:  24% (25/102)   Compressing objects:  25% (26/102)   Compressing objects:  26% (27/102)   Compressing objects:  27% (28/102)   Compressing objects:  28% (29/102)   Compressing objects:  29% (30/102)   Compressing objects:  30% (31/102)   Compressing objects:  31% (32/102)   Compressing objects:  32% (33/102)   Compressing objects:  33% (34/102)   Compressing objects:  34% (35/102)   Compressing objects:  35% (36/102)   Compressing objects:  36% (37/102)   Compressing objects:  37% (38/102)   Compressing objects:  38% (39/102)   Compressing objects:  39% (40/102)   Compressing objects:  40% (41/102)   Compressing objects:  41% (42/102)   Compressing objects:  42% (43/102)   Compressing objects:  43% (44/102)   Compressing objects:  44% (45/102)   Compressing objects:  45% (46/102)   Compressing objects:  46% (47/102)   Compressing objects:  47% (48/102)   Compressing objects:  48% (49/102)   Compressing objects:  49% (50/102)   Compressing objects:  50% (51/102)   Compressing objects:  51% (53/102)   Compressing objects:  52% (54/102)   Compressing objects:  53% (55/102)   Compressing objects:  54% (56/102)   Compressing objects:  55% (57/102)   Compressing objects:  56% (58/102)   Compressing objects:  57% (59/102)   Compressing objects:  58% (60/102)   Compressing objects:  59% (61/102)   Compressing objects:  60% (62/102)   Compressing objects:  61% (63/102)   Compressing objects:  62% (64/102)   Compressing objects:  63% (65/102)   Compressing objects:  64% (66/102)   Compressing objects:  65% (67/102)   Compressing objects:  66% (68/102)   Compressing objects:  67% (69/102)   Compressing objects:  68% (70/102)   Compressing objects:  69% (71/102)   Compressing objects:  70% (72/102)   Compressing objects:  71% (73/102)   Compressing objects:  72% (74/102)   Compressing objects:  73% (75/102)   Compressing objects:  74% (76/102)   Compressing objects:  75% (77/102)   Compressing objects:  76% (78/102)   Compressing objects:  77% (79/102)   Compressing objects:  78% (80/102)   Compressing objects:  79% (81/102)   Compressing objects:  80% (82/102)   Compressing objects:  81% (83/102)   Compressing objects:  82% (84/102)   Compressing objects:  83% (85/102)   Compressing objects:  84% (86/102)   Compressing objects:  85% (87/102)   Compressing objects:  86% (88/102)   Compressing objects:  87% (89/102)   Compressing objects:  88% (90/102)   Compressing objects:  89% (91/102)   Compressing objects:  90% (92/102)   Compressing objects:  91% (93/102)   Compressing objects:  92% (94/102)   Compressing objects:  93% (95/102)   Compressing objects:  94% (96/102)   Compressing objects:  95% (97/102)   Compressing objects:  96% (98/102)   Compressing objects:  97% (99/102)   Compressing objects:  98% (100/102)   Compressing objects:  99% (101/102)   Compressing objects: 100% (102/102)   Compressing objects: 100% (102/102), done.
+Writing objects:   0% (1/107)   Writing objects:   1% (2/107)   Writing objects:   2% (3/107)   Writing objects:   3% (4/107)   Writing objects:   4% (5/107)   Writing objects:   5% (6/107)   Writing objects:   6% (7/107)   Writing objects:   7% (8/107)   Writing objects:   8% (9/107)   Writing objects:   9% (10/107)   Writing objects:  10% (11/107)   Writing objects:  11% (12/107)   Writing objects:  12% (13/107)   Writing objects:  13% (14/107)   Writing objects:  14% (15/107)   Writing objects:  15% (17/107)   Writing objects:  16% (18/107)   Writing objects:  17% (19/107)   Writing objects:  18% (20/107)   Writing objects:  19% (21/107)   Writing objects:  20% (22/107)   Writing objects:  21% (23/107)   Writing objects:  22% (24/107)   Writing objects:  23% (25/107)   Writing objects:  24% (26/107)   Writing objects:  25% (27/107)   Writing objects:  26% (28/107)   Writing objects:  27% (29/107)   Writing objects:  28% (30/107)   Writing objects:  29% (32/107)   Writing objects:  31% (34/107)   Writing objects:  32% (35/107)   Writing objects:  33% (36/107)   Writing objects:  34% (37/107)   Writing objects:  35% (38/107)   Writing objects:  36% (39/107)   Writing objects:  37% (40/107)   Writing objects:  38% (41/107)   Writing objects:  39% (42/107)   Writing objects:  40% (43/107)   Writing objects:  41% (44/107)   Writing objects:  42% (45/107)   Writing objects:  43% (47/107)   Writing objects:  44% (48/107)   Writing objects:  45% (49/107)   Writing objects:  46% (50/107)   Writing objects:  47% (51/107)   Writing objects:  48% (52/107)   Writing objects:  49% (53/107)   Writing objects:  50% (54/107)   Writing objects:  51% (55/107)   Writing objects:  53% (57/107)   Writing objects:  54% (58/107)   Writing objects:  55% (59/107)   Writing objects:  56% (60/107)   Writing objects:  57% (61/107)   Writing objects:  59% (64/107)   Writing objects:  60% (65/107)   Writing objects:  61% (66/107)   Writing objects:  62% (67/107)   Writing objects:  63% (68/107)   Writing objects:  64% (69/107)   Writing objects:  65% (70/107)   Writing objects:  66% (71/107)   Writing objects:  67% (72/107)   Writing objects:  68% (73/107)   Writing objects:  69% (74/107)   Writing objects:  70% (75/107)   Writing objects:  71% (76/107)   Writing objects:  72% (78/107)   Writing objects:  73% (79/107)   Writing objects:  74% (80/107)   Writing objects:  75% (81/107)   Writing objects:  76% (82/107)   Writing objects:  77% (83/107)   Writing objects:  78% (84/107)   Writing objects:  79% (85/107)   Writing objects:  80% (86/107)   Writing objects:  81% (87/107)   Writing objects:  82% (88/107)   Writing objects:  83% (89/107)   Writing objects:  85% (92/107)   Writing objects:  87% (94/107)   Writing objects:  88% (95/107)   Writing objects:  89% (96/107)   Writing objects:  90% (97/107)   Writing objects:  91% (98/107)   Writing objects:  92% (99/107)   Writing objects:  93% (100/107)   Writing objects:  94% (101/107)   Writing objects:  95% (102/107)   Writing objects:  96% (103/107)   Writing objects:  97% (104/107)   Writing objects:  98% (105/107)   Writing objects:  99% (106/107)   Writing objects: 100% (107/107)   Writing objects: 100% (107/107), 21.50 KiB | 128.00 KiB/s, done.
+Total 107 (delta 30), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/30)[Kremote: Resolving deltas:   3% (1/30)[Kremote: Resolving deltas:   6% (2/30)[Kremote: Resolving deltas:  10% (3/30)[Kremote: Resolving deltas:  13% (4/30)[Kremote: Resolving deltas:  16% (5/30)[Kremote: Resolving deltas:  20% (6/30)[Kremote: Resolving deltas:  23% (7/30)[Kremote: Resolving deltas:  26% (8/30)[Kremote: Resolving deltas:  30% (9/30)[Kremote: Resolving deltas:  33% (10/30)[Kremote: Resolving deltas:  36% (11/30)[Kremote: Resolving deltas:  40% (12/30)[Kremote: Resolving deltas:  43% (13/30)[Kremote: Resolving deltas:  46% (14/30)[Kremote: Resolving deltas:  50% (15/30)[Kremote: Resolving deltas:  53% (16/30)[Kremote: Resolving deltas:  56% (17/30)[Kremote: Resolving deltas:  60% (18/30)[Kremote: Resolving deltas:  63% (19/30)[Kremote: Resolving deltas:  66% (20/30)[Kremote: Resolving deltas:  70% (21/30)[Kremote: Resolving deltas:  73% (22/30)[Kremote: Resolving deltas:  76% (23/30)[Kremote: Resolving deltas:  80% (24/30)[Kremote: Resolving deltas:  83% (25/30)[Kremote: Resolving deltas:  86% (26/30)[Kremote: Resolving deltas:  90% (27/30)[Kremote: Resolving deltas:  93% (28/30)[Kremote: Resolving deltas:  96% (29/30)[Kremote: Resolving deltas: 100% (30/30)[Kremote: Resolving deltas: 100% (30/30), done.[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/vincent10kd/fastaf/pull/new/master[K
+remote: 
+To github.com:vincent10kd/fastaf.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
