@@ -4,7 +4,7 @@
 \alias{subset_match}
 \title{Subset a file by exact matching a set of identifiers}
 \usage{
-subset_match(file, column = 1, ids = NULL, separator = "\\t")
+subset_match(file, column = 1, ids = NULL, separator = "\\t", first_row = TRUE)
 }
 \arguments{
 \item{file}{Filename to subset.}
@@ -14,6 +14,8 @@ subset_match(file, column = 1, ids = NULL, separator = "\\t")
 \item{ids}{Identifiers (a character vector).}
 
 \item{separator}{The column delimiter of the file.}
+
+\item{first_row}{If TRUE, returns first row as well.}
 }
 \value{
 Returns a subset of the file as a matrix.

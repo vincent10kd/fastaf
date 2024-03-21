@@ -4,7 +4,13 @@
 \alias{subset_match_fast}
 \title{Subsetting based on an exact match with identifiers by hash-based lookup}
 \usage{
-subset_match_fast(file, column = 1, ids = NULL, separator = "\\t")
+subset_match_fast(
+  file,
+  column = 1,
+  ids = NULL,
+  separator = "\\t",
+  first_row = TRUE
+)
 }
 \arguments{
 \item{file}{Filename to retrieve dimensions of.}
@@ -14,6 +20,8 @@ subset_match_fast(file, column = 1, ids = NULL, separator = "\\t")
 \item{ids}{Identifiers to match (character vector).}
 
 \item{separator}{The column delimiter of the file.}
+
+\item{first_row}{If TRUE, returns first row as well.}
 }
 \value{
 Returns a subset of the file as a matrix.

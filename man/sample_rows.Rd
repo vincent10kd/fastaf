@@ -7,8 +7,8 @@
 sample_rows(
   file,
   no_of_rows = 10,
-  exclude_condition = ">= 5e-8",
-  exclude_condition_col = 10,
+  exclude_condition = NULL,
+  exclude_condition_col = 1,
   separator = "\\t"
 )
 }

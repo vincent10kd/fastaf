@@ -4,7 +4,14 @@
 \alias{subset_grep}
 \title{Subset a file based on grepping}
 \usage{
-subset_grep(file, column = 1, pattern = NULL, separator = "\\t", grep = FALSE)
+subset_grep(
+  file,
+  column = 1,
+  pattern = NULL,
+  separator = "\\t",
+  grep = TRUE,
+  first_row = TRUE
+)
 }
 \arguments{
 \item{file}{Filename to grep in.}
@@ -16,6 +23,8 @@ subset_grep(file, column = 1, pattern = NULL, separator = "\\t", grep = FALSE)
 \item{separator}{The column delimiter of the file.}
 
 \item{grep}{If FALSE, does not grep but exactly matches the pattern.}
+
+\item{first_row}{If TRUE, returns first row as well.}
 }
 \value{
 Returns a subset of a file as a matrix.

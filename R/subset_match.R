@@ -6,11 +6,12 @@
 #' @param column Column to identify exact matches in.
 #' @param ids Identifiers (a character vector).
 #' @param separator The column delimiter of the file.
+#' @param first_row If TRUE, returns first row as well.
 #'
 #' @return Returns a subset of the file as a matrix.
 #' @export
 
-subset_match <- function(file, column = 1, ids = NULL, separator = '\t'){
+subset_match <- function(file, column = 1, ids = NULL, separator = '\t', first_row = TRUE){
   stt <- Sys.time()
   code <- paste0("awk 'BEGIN {ids=\"", paste(ids, collapse='|'),"\"}$", column, "~ \"^(\" ids \")$\" {print}' ", file)
   print(substr(code, 1, 50))
@@ -18,6 +19,7 @@ subset_match <- function(file, column = 1, ids = NULL, separator = '\t'){
   ett <- Sys.time()
   print(difftime(ett, stt, units='secs'))
   res <- do.call('rbind', strsplit(res, separator))
-  rbind(colnames_fast(file, separator), res)
+  if(first_row) rbind(colnames_fast(file, separator), res)
+  else res
 }
 
