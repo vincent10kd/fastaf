@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1711052069515.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5397F691",
+    "lastKnownWriteTime" : 1711052596,
+    "last_content_update" : 1711052596638,
+    "path" : "~/Documents/Rpackages/fastaf/R/head_fast.R",
+    "project_path" : "R/head_fast.R",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

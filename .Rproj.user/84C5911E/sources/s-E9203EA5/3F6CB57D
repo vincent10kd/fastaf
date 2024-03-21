@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1711052317413.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3F6CB57D",
+    "lastKnownWriteTime" : 1711053392,
+    "last_content_update" : 1711053392470,
+    "path" : "~/Documents/Rpackages/fastaf/R/subset_grep.R",
+    "project_path" : "R/subset_grep.R",
+    "properties" : {
+        "cursorPosition" : "10,50",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

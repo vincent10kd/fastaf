@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1711052247385.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BDE464B8",
+    "lastKnownWriteTime" : 1711052788,
+    "last_content_update" : 1711052788988,
+    "path" : "~/Documents/Rpackages/fastaf/R/dim_fast.R",
+    "project_path" : "R/dim_fast.R",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

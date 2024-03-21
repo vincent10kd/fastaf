@@ -1,0 +1,21 @@
+]0;~/Documents/Rpackages/fastaf[?1034h(base) Arinas-Air-2:fastaf arinetencate-hoek$ git init
+Reinitialized existing Git repository in /Users/arinetencate-hoek/Documents/Rpackages/fastaf/.git/
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote add origin https://github.com/username/reponame
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote add origin https://github.com/username/reponame[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvincent0[K10kd/fastaf
+fatal: remote origin already exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote set-origin [K[K[K[K[K[K[Kurl origin[Kn https://github.com/vinent1[K[K[K[Kcent10kd/fastaf
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote -v
+origin	https://github.com/vincent10kd/fastaf (fetch)
+origin	https://github.com/vincent10kd/fastaf (push)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/vincent10kd/fastaf'
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git init
+Reinitialized existing Git repository in /Users/arinetencate-hoek/Documents/Rpackages/fastaf/.git/
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote -v
+origin	https://github.com/vincent10kd/fastaf (fetch)
+origin	https://github.com/vincent10kd/fastaf (push)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push origin mater[K[K[Kster
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/vincent10kd/fastaf'
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .

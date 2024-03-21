@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1711052337813.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3997075029",
+    "id" : "5F842183",
+    "lastKnownWriteTime" : 1711053596,
+    "last_content_update" : 1711053596056,
+    "path" : "~/Documents/Rpackages/fastaf/R/sample_rows.R",
+    "project_path" : "R/sample_rows.R",
+    "properties" : {
+        "cursorPosition" : "10,77",
+        "scrollLine" : "1",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

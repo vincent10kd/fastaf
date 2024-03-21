@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1711052301436.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "5460330",
+    "id" : "76D3CF18",
+    "lastKnownWriteTime" : 1711053287,
+    "last_content_update" : 1711053287663,
+    "path" : "~/Documents/Rpackages/fastaf/R/subset_match_fast.R",
+    "project_path" : "R/subset_match_fast.R",
+    "properties" : {
+        "cursorPosition" : "9,52",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
