@@ -11,7 +11,7 @@
 #' @return Returns a subset of a file as a matrix.
 #' @export
 
-subset_grep <- function(file, column = 1, pattern = NULL, separator = '\t', grep = FALSE){
+subset_grep <- function(file, column = 1, pattern = NULL, separator = '\t', grep = TRUE){
   stt <- Sys.time()
   code <- paste0("grep -nE \"", pattern,"\" ", file," | awk -F: '{print $1}' | xargs -I {} awk 'NR == {}' ", file)
   if(grep == FALSE) code <- paste0("awk '/", pattern, "/ {print} ", file)
