@@ -1,2 +1,2 @@
 # fastaf
-Fast big data manipulation in R by wrapping linux commands (e.g. awk) 
+Fast big data manipulation in R by wrapping command line tools (e.g. awk) 
