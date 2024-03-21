@@ -201,3 +201,27 @@ usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
            [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
            [user@]hostname [command]
 ]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git commit -m "first"
+[master 096a2ff] first
+ Committer: Arina ten Cate - Hoek <arinetencate-hoek@Arinas-Air-2.fritz.box>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 82 insertions(+), 1 deletion(-)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push origin master
+fatal: 'git@github.com/vincent10kd/fastaf.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push origin master[1Pcommit -m "first"add .[K[3Pssh -Tgit push --set-upstream origin master[Kremote set-url origin git@github.com/vincent10kd/fastaf.git[K[K[K[K
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
