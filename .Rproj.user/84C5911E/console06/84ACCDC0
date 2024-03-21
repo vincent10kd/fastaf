@@ -19,3 +19,7 @@ origin	https://github.com/vincent10kd/fastaf (push)
 error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/vincent10kd/fastaf'
 ]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
+HEAD is now at 8cb008d first push
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ ls
+DESCRIPTION	NAMESPACE	R		fastaf.Rproj	man
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add.[K .
