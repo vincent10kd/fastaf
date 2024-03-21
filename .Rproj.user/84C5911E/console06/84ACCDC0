@@ -120,3 +120,84 @@ dim_fast.R		read_fast.R		subset_grep.R		tail_fast.R
 ]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ ls
 DESCRIPTION	NAMESPACE	R		fastaf.Rproj	man
 ]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git commit -m "second"
+[master ef48a75] second
+ Committer: Arina ten Cate - Hoek <arinetencate-hoek@Arinas-Air-2.fritz.box>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 28 files changed, 108 insertions(+), 504 deletions(-)
+ rewrite .Rproj.user/84C5911E/console06/INDEX001 (85%)
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/3F6CB57D
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/3F6CB57D-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/5397F691
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/5397F691-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/5F842183
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/5F842183-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/76D3CF18
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/76D3CF18-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/82A82A85
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/82A82A85-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/8B3A2ACA
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/8B3A2ACA-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/8D298E74
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/8D298E74-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/AE12A072
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/AE12A072-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/B4143D31
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/B4143D31-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/BDE464B8
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/BDE464B8-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/D11ACB2F
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/D11ACB2F-contents
+ delete mode 100644 .Rproj.user/84C5911E/sources/s-E9203EA5/lock_file
+ create mode 100644 .gitignore
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote add origin git@github.com:vincent10kd/fastaf
+fatal: remote origin already exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push -u origin master
+fatal: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': vincent10kd
+fatal: cannot run rpostback-askpass: No such file or directory
+Password for 'https://vincent10kd@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/vincent10kd/fastaf/'
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push -u origin master
+fatal: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': vincent10kd
+fatal: cannot run rpostback-askpass: No such file or directory
+Password for 'https://vincent10kd@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/vincent10kd/fastaf/'
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote set-url origin git@github.com/vincent10kd/fastaf.git
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push --set-upstream origin master
+fatal: 'git@github.com/vincent10kd/fastaf.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ ssh -T
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-E log_file] [-e escape_char]
+           [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J [user@]host[:port]] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-p port] [-Q query_option] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           [user@]hostname [command]
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
