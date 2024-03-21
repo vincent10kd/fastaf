@@ -225,3 +225,86 @@ Please make sure you have the correct access rights
 and the repository exists.
 ]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push origin master[1Pcommit -m "first"add .[K[3Pssh -Tgit push --set-upstream origin master[Kremote set-url origin git@github.com/vincent10kd/fastaf.git[K[K[K[K
 ]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git commit -m "first"
+[master 607b428] first
+ Committer: Arina ten Cate - Hoek <arinetencate-hoek@Arinas-Air-2.fritz.box>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 24 insertions(+)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push origin master
+fatal: 'git@github.com/vincent10kd/fastaf' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push origin master[Kcommit -m "first"add .[Kremote set-url origin git@github.com/vincent10kd/fastaf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush origin master[K[1Pcommit -m "first"add .[K[3Pssh -Tgit push --set-upstream origin master[Kremote set-url origin git@github.com/vincent10kd/fastaf.git
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote set-url origin git@github.com/vincent10kd/fastaf.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush origin master[K[K origin master
+fatal: 'git@github.com/vincent10kd/fastaf.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote -v
+origin	git@github.com/vincent10kd/fastaf.git (fetch)
+origin	git@github.com/vincent10kd/fastaf.git (push)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git pull origin main
+fatal: 'git@github.com/vincent10kd/fastaf.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git pull origin master
+fatal: 'git@github.com/vincent10kd/fastaf.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote add origin git@github.com:vincent10kd/fastaf.git
+fatal: remote origin already exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'git@github.com/vincent10kd/fastaf.git'
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git branch
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push origin master
+fatal: 'git@github.com/vincent10kd/fastaf.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remove [K[K[Kte -v
+origin	git@github.com/vincent10kd/fastaf.git (fetch)
+origin	git@github.com/vincent10kd/fastaf.git (push)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ ssh -T git@github.com
+Hi vincent10kd! You've successfully authenticated, but GitHub does not provide shell access.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git remote -v
+origin	git@github.com/vincent10kd/fastaf.git (fetch)
+origin	git@github.com/vincent10kd/fastaf.git (push)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git branch
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/84C5911E/console06/84ACCDC0[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
