@@ -23,3 +23,100 @@ HEAD is now at 8cb008d first push
 ]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ ls
 DESCRIPTION	NAMESPACE	R		fastaf.Rproj	man
 ]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add.[K .
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git commit
+hint: Waiting for your editor to close the file... [?2004h[KAborting commit due to empty commit message.
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git commit "fir[K[K[K[K-m "first commit"
+[master e500021] first commit
+ Committer: Arina ten Cate - Hoek <arinetencate-hoek@Arinas-Air-2.fritz.box>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 9 insertions(+), 5 deletions(-)
+ rewrite .Rproj.user/84C5911E/console06/INDEX001 (100%)
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ ls
+DESCRIPTION	NAMESPACE	R		fastaf.Rproj	man
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git push origin master
+fatal: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': vincent10kd
+fatal: cannot run rpostback-askpass: No such file or directory
+Password for 'https://vincent10kd@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/vincent10kd/fastaf/'
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ ls
+DESCRIPTION	NAMESPACE	R		fastaf.Rproj	man
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ cd R
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ ls
+colnames_fast.R		head_fast.R		sample_rows.R		subset_match.R
+combine_columns.R	hello.R			subset_condition.R	subset_match_fast.R
+dim_fast.R		read_fast.R		subset_grep.R		tail_fast.R
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ git add .
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ git commit -m "add all"
+On branch master
+Changes not staged for commit:
+	[31mmodified:   ../.Rproj.user/84C5911E/console06/84ACCDC0[m
+	[31mmodified:   ../.Rproj.user/84C5911E/console06/INDEX001[m
+
+no changes added to commit
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ rm -rf .git
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ 
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ git init
+Initialized empty Git repository in /Users/arinetencate-hoek/Documents/Rpackages/fastaf/R/.git/
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ git add .
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ git commit -m "first"
+[master (root-commit) a00caae] first
+ Committer: Arina ten Cate - Hoek <arinetencate-hoek@Arinas-Air-2.fritz.box>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 12 files changed, 264 insertions(+)
+ create mode 100644 colnames_fast.R
+ create mode 100644 combine_columns.R
+ create mode 100644 dim_fast.R
+ create mode 100644 head_fast.R
+ create mode 100644 hello.R
+ create mode 100644 read_fast.R
+ create mode 100644 sample_rows.R
+ create mode 100644 subset_condition.R
+ create mode 100644 subset_grep.R
+ create mode 100644 subset_match.R
+ create mode 100644 subset_match_fast.R
+ create mode 100644 tail_fast.R
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ git pish[K[K[Kush origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Rpackages/fastaf/R[?1034h(base) Arinas-Air-2:R arinetencate-hoek$ git status
+On branch master
+nothing to commit, working tree clean
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ ls
+colnames_fast.R		head_fast.R		sample_rows.R		subset_match.R
+combine_columns.R	hello.R			subset_condition.R	subset_match_fast.R
+dim_fast.R		read_fast.R		subset_grep.R		tail_fast.R
+]0;~/Documents/Rpackages/fastaf/R(base) Arinas-Air-2:R arinetencate-hoek$ cd ..
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ ls
+DESCRIPTION	NAMESPACE	R		fastaf.Rproj	man
+]0;~/Documents/Rpackages/fastaf(base) Arinas-Air-2:fastaf arinetencate-hoek$ git add .
