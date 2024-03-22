@@ -13,9 +13,8 @@
 
 subset_match_fast <- function(file, column = 1, ids = NULL, separator = '\t', first_row = TRUE){
   stt <- Sys.time()
-  code <- paste0("#!/bin/bash\n",
-                 "ids=(", paste(paste0("\"",ids,"\""), collapse=' '),")\n",
-                 "for id in \"${ids[@]}\"; do\n echo \"$id\"\n done > id_list.txt")
+  code <- paste0("ids=\"", paste(ids, collapse=' '),"\"\n",
+                 "for id in $ids; do\n echo \"$id\"\n done > id_list.txt")
   system(code)
   code <- paste0("awk 'NR==FNR {ids[$0]; next} {id=$", column,"; sub(/^ *| *$/, \"\", id)} id in ids' id_list.txt ", file)
   print(code)
