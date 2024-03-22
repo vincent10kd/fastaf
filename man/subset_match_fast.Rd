@@ -9,6 +9,7 @@ subset_match_fast(
   column = 1,
   ids = NULL,
   separator = "\\t",
+  grep = FALSE,
   first_row = TRUE
 )
 }
@@ -20,6 +21,8 @@ subset_match_fast(
 \item{ids}{Identifiers to match (character vector).}
 
 \item{separator}{The column delimiter of the file.}
+
+\item{grep}{If TRUE, use grep instead of awk (for when awk does not return all matches).}
 
 \item{first_row}{If TRUE, returns first row as well.}
 }
