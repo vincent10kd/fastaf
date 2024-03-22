@@ -15,7 +15,7 @@
 subset_match_fast <- function(file, column = 1, ids = NULL, separator = '\t', grep = FALSE, first_row = TRUE){
   stt <- Sys.time()
   write.table(data.frame(ids), file = 'id_list.txt', row.names = FALSE, col.names = FALSE, quote = FALSE)
-  code <- paste0("awk 'NR==FNR {ids[$1] = 1; next} $", column, " in ids' id_list.txt ", file)
+  code <- paste0("awk 'NR==FNR {ids[$1] = 1; next} $", column, " in ids' id_list.txt FS='", separator,"' ", file)
   if(grep) code <- paste0("grep -f id_list.txt ", file)
   print(code)
   res <- system(code, intern=TRUE)
@@ -23,8 +23,7 @@ subset_match_fast <- function(file, column = 1, ids = NULL, separator = '\t', gr
   ett <- Sys.time()
   print(difftime(ett, stt, units='secs'))
   res <- do.call('rbind', strsplit(res, separator))
-  if(grep)
-    res
+  res
 }
 
 
