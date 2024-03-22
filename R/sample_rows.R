@@ -15,7 +15,6 @@ sample_rows <- function(file, no_of_rows = 10, exclude_condition = NULL, exclude
   stt <- Sys.time()
   code <- paste0("awk 'NR==1 || $", exclude_condition_col, exclude_condition,"' ", file,"| shuf -n ", sprintf("%.0f", no_of_rows))
   if(is.null(exclude_condition))   code <- paste0("shuf -n ", sprintf("%.0f", no_of_rows)," ",file)
-  print(code)
   res <- system(code, intern=TRUE)
   ett <- Sys.time()
   print(difftime(ett, stt, units='secs'))
